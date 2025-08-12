@@ -3,8 +3,7 @@ ASSIGNMENT 1: Task1 and Task2
 
 
 
-Task 1: 
-Perform Basic Mathematical Operations
+Task 1: Perform Basic Mathematical Operations
 Problem Statement: Write a Python program that does the following:
 1.  Takes two numbers as input from the user.
 2.  Performs the basic mathematical operations on these two numbers:
@@ -49,11 +48,11 @@ Problem Statement: Write a Python program that:
 3.  Prints a personalized greeting message using the full name.
 
    # 1. Takes a user's first and last name as input.
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+f_n = input("Enter your first name: ")
+l_n = input("Enter your last name: ")
 
 # 2. Concatenates the first name and last name into a full name.
-f = first_name + " " + last_name
+f = f_n + " " + l_n
 
 # 3. display the result.
 print(f"Hello, {f}! Welcome to the  python program.")
